@@ -20,23 +20,23 @@ columnDefs = [
         "cellRendererParams": {"className": "btn btn-light btn-sm", },
     },
 
-        {
-        "headerName": "In Database",  # Name of table displayed in app
-        "field": "inDatabase",
-        "maxWidth": 200,
-        "minWidth": 100,
-        # "linkTarget":"_blank",
-        "cellRenderer": "Checkbox",
-        },
+    #     {
+    #     "headerName": "In Database",  # Name of table displayed in app
+    #     "field": "inDatabase",
+    #     "maxWidth": 200,
+    #     "minWidth": 100,
+    #     # "linkTarget":"_blank",
+    #     "cellRenderer": "Checkbox",
+    #     },
 
-        {
-        "headerName": "Add to AI",
-        "field": "addButton",
-        "maxWidth": 150,
-        "minWidth": 150,
-        "cellRenderer": "Button",
-        "cellRendererParams": {"className": "btn btn-info"},
-    },
+    #     {
+    #     "headerName": "Add to AI",
+    #     "field": "addButton",
+    #     "maxWidth": 150,
+    #     "minWidth": 150,
+    #     "cellRenderer": "Button",
+    #     "cellRendererParams": {"className": "btn btn-info"},
+    # },
                 
     {
         "headerName": "Filing Date",
